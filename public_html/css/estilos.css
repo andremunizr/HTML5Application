@@ -1,0 +1,35 @@
+/* 
+    Document   : estilos
+    Created on : May 14, 2013, 1:42:55 PM
+    Author     : douglas
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+.table{
+    width: 830px;
+    height: 870px;
+    box-sizing: border-box;   
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -415px;
+    margin-left: -435px;
+}
+
+.fret{
+    border: 1px solid orange;
+    width: 90px;
+    height: 90px;
+    display: inline-block;
+    margin-top: -6px;
+    margin-left: -1px;
+}
+
+.fret:nth-child(even){
+    background-color: orange;
+}
